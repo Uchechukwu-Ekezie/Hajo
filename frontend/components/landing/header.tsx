@@ -14,7 +14,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2">
             <span className="text-3xl sm:text-4xl font-bold leading-none">
               <span className="text-gray-900">Ha</span>
-              <span className="text-primary">jo</span>
+              <span className="text-primary">joo</span>
             </span>
           </Link>
 

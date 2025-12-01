@@ -1,7 +1,7 @@
-# Ajo 🌍  
+# Hajoo 🌍  
 ### Bringing Africa’s Trusted Savings Circles Onchain  
 
-**Ajo** is a decentralized community savings and payout platform built on **Hedera**, designed to bring Africa’s age-old group savings system — known as *Ajo*, *Esusu*, *Stokvel*, or *Chama* — into the digital age.  
+**Hajoo** is a decentralized community savings and payout platform built on **Hedera**, designed to bring Africa’s age-old group savings system — known as *Ajo*, *Esusu*, *Stokvel*, or *Chama* — into the digital age.  
 It enables trusted circles to automate contributions, payouts, and transparency using smart contracts.  
 
 ---
@@ -11,12 +11,12 @@ It enables trusted circles to automate contributions, payouts, and transparency 
 Across Africa, millions of people rely on informal savings groups to pool money and support one another.  
 While these systems foster trust and cooperation, they often face problems like missed payments, fraud, and lack of transparency.  
 
-**Ajo solves this by putting savings groups onchain.**  
+**Hajoo solves this by putting savings groups onchain.**  
 Funds are managed by smart contracts — not people — ensuring automation, transparency, and fairness for everyone.  
 
 ---
 
-## 💡 Key Features  
+## 💡 Current Features  
 
 ### 🔐 Onchain Trust  
 Every group is governed by a smart contract escrow.  
@@ -28,13 +28,13 @@ Contributions and payouts happen automatically on schedule — no delays, no dis
 ### 📊 Transparent Tracking  
 Every transaction is verifiable onchain, ensuring full visibility for all group members.  
 
-### 💰 Flexible Savings Modes  
+### 💰 Rotational Savings (MVP)  
 - **Rotational Mode** – Members take turns receiving payouts.  
-- **Target Pool Mode** – Groups save toward a shared goal.  
-- **Flexible Pool Mode** – Members deposit anytime and optionally earn yield through DeFi integrations.  
+  
+Additional modes (Target/Flexible) are planned in the roadmap.  
 
-### 📈 Optional Yield Generation  
-Idle funds can be staked via Base DeFi protocols (like Aave) to generate passive income for members.  
+### 🔗 Wallet Connect  
+Connect with WalletConnect AppKit and manage contributions from the dashboard.  
 
 ### 🌐 Accessibility  
 Supports multiple wallets and will integrate **zkLogin** for social/email onboarding.  
@@ -52,26 +52,25 @@ Supports multiple wallets and will integrate **zkLogin** for social/email onboar
 
 **Frontend**  
 - **Next.js** + **Tailwind CSS** – Responsive, mobile-first interface  
-- **Wagmi + RainbowKit** – Wallet connection and onchain interaction  
-- **Supabase** – Off-chain metadata and chat  
+- **Wagmi + Reown AppKit** – Wallet connection and onchain interaction  
 
 **Infrastructure**  
-- **Base Network** – Low-cost, fast, and scalable for microtransactions  
-- **Foundry** – Smart contract development and testing  
+- **Hedera Network** – Low-cost and fast  
+- **Foundry/Hardhat** – Smart contract development and testing  
 
 ---
 
 ## 🪙 Current Setup  
 
-For now, Ajo uses a **mock USDT token** for contributions and payouts:  
-NEXT_PUBLIC_TOKEN_ADDRESS=0x04F9CE8FDba78e489D2dF705c3498736EfBa6D28
+For now, Hajoo uses a **mock USDT token** for contributions and payouts:  
+`NEXT_PUBLIC_TOKEN_ADDRESS=0x04F9CE8FDba78e489D2dF705c3498736EfBa6D28`
 
 
 ---
 
 ## 🧩 Why Onchain?  
 
-Ajo is built onchain to solve trust and transparency issues in traditional savings systems.  
+Hajoo is built onchain to solve trust and transparency issues in traditional savings systems.  
 - **Smart contracts** manage funds safely and automatically.  
 - **Transparency** ensures every member can verify group activity.  
 - **Global participation** allows members anywhere to join and contribute.  
@@ -94,9 +93,8 @@ These will be improved as we continue to refine the project.
 ## 🎯 Roadmap  
 
 **Phase 1 – MVP (Current)**  
-- Group creation & contributions  
-- Rotational/Target/Flexible modes  
 - Wallet connection and basic dashboard  
+- Group creation & contributions (Rotational)  
 
 **Phase 2 – Enhancement (Q1 2026)**  
 - Yield integrations with DeFi protocols  
@@ -121,19 +119,19 @@ These will be improved as we continue to refine the project.
 
 ---
 
-## 🏆 Why Ajo  
+## 🏆 Why Hajoo  
 
-Ajo digitizes Africa’s most trusted financial culture — not to replace it, but to **enhance** it.  
-By combining familiar community savings with blockchain’s automation and transparency, Ajo builds a bridge between **tradition and technology**, empowering millions to save, invest, and grow together.  
+Hajoo digitizes Africa’s most trusted financial culture — not to replace it, but to **enhance** it.  
+By combining familiar community savings with blockchain’s automation and transparency, Hajoo builds a bridge between **tradition and technology**, empowering millions to save, invest, and grow together.  
 
 ---
 
 ## 🔗 Links  
 
-- **Live App:** [app.ajo.xyz](l)
-- **GitHub:** [github.com/ajo-onchain]()  
+- **Live App:** [app.hajoo.xyz](#)
+- **GitHub:** [github.com/NOM-GAME/Hajo](https://github.com/NOM-GAME/Hajo)  
 
 ---
 
 ### Built with ❤️ for African communities.  
-### Powered by Base.  
+### Powered by Hedera.  

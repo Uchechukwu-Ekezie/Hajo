@@ -8,8 +8,8 @@ import { Toaster } from "@/components/ui/sonner"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Ajo - Community Savings on Base",
-  description: "Save together, grow together. Decentralized community savings build on Base blockchain.",
+  title: "Hajoo - Community Savings on Hedera",
+  description: "Save together, grow together. Decentralized community savings built on Hedera.",
 }
 
 export default function RootLayout({
