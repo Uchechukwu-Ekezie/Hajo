@@ -19,12 +19,12 @@ export function DashboardTabs() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f3f1ff]/60 via-white to-[#eef4ff]/60">
+    <div className="min-h-screen bg-gradient-to-br from-[#e9d5ff]/70 via-white to-[#bfdbfe]/70">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#efeaff]/70 via-transparent to-[#e7efff]/70" />
-        <div className="absolute -top-10 -right-10 w-[28rem] h-[28rem] bg-primary/30 rounded-full blur-3xl" />
-        <div className="absolute bottom-[-4rem] left-[-4rem] w-[22rem] h-[22rem] bg-accent/20 rounded-full blur-3xl" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#ddd6fe]/60 via-transparent to-[#bfdbfe]/60" />
+        <div className="absolute -top-10 -right-10 w-[28rem] h-[28rem] bg-primary/40 rounded-full blur-3xl" />
+        <div className="absolute bottom-[-4rem] left-[-4rem] w-[22rem] h-[22rem] bg-blue-400/30 rounded-full blur-3xl" />
         
         <div className="relative z-10 px-4 py-12 sm:py-16">
           <motion.div
@@ -58,7 +58,7 @@ export function DashboardTabs() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-5xl mx-auto mt-12"
           >
-            <Card className="p-6 bg-white/80 backdrop-blur-sm border shadow-lg">
+            <Card className="p-6 bg-white/90 backdrop-blur-sm border border-primary/10 shadow-lg shadow-primary/10">
               <div className="flex items-center justify-between mb-2">
                 <div className="p-2.5 rounded-xl bg-gradient-to-br from-[#efeaff] to-white shadow-sm">
                   <Users className="h-5 w-5 text-primary" />
@@ -69,7 +69,7 @@ export function DashboardTabs() {
               <div className="text-sm text-muted-foreground">Active Pools</div>
             </Card>
             
-            <Card className="p-6 bg-white/80 backdrop-blur-sm border shadow-lg">
+            <Card className="p-6 bg-white/90 backdrop-blur-sm border border-primary/10 shadow-lg shadow-primary/10">
               <div className="flex items-center justify-between mb-2">
                 <div className="p-2.5 rounded-xl bg-gradient-to-br from-[#e7efff] to-white shadow-sm">
                   <DollarSign className="h-5 w-5 text-[#5B8DEF]" />
@@ -80,7 +80,7 @@ export function DashboardTabs() {
               <div className="text-sm text-muted-foreground">Total Saved</div>
             </Card>
             
-            <Card className="p-6 bg-white/80 backdrop-blur-sm border shadow-lg">
+            <Card className="p-6 bg-white/90 backdrop-blur-sm border border-primary/10 shadow-lg shadow-primary/10">
               <div className="flex items-center justify-between mb-2">
                 <div className="p-2.5 rounded-xl bg-gradient-to-br from-[#f2f2ff] to-white shadow-sm">
                   <TrendingUp className="h-5 w-5 text-primary" />
