@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center text-center gap-4">
           <Link href="/" className="flex items-center gap-2 transition-transform duration-200 hover:scale-105">
             <span className="text-3xl sm:text-4xl font-bold leading-none">
-              <span className="text-primary">Ha</span>
+              <span className="white">Ha</span>
               <span className="text-primary">jo</span>
             </span>
           </Link>
