@@ -73,12 +73,12 @@ export function HowItWorks() {
                 <div className="hidden md:block absolute top-16 left-[60%] w-[80%] h-0.5 border-t-2 border-dashed border-primary/30" />
               )}
               
-              <div className="flex flex-col items-center text-center relative z-10">
-                <div className="w-24 h-24 rounded-full bg-white border-4 border-primary/20 flex items-center justify-center mb-6 relative">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center">
+              <div className="flex flex-col items-center text-center relative z-10 p-6 rounded-xl transition-all duration-300 hover:bg-white/50">
+                <div className="w-24 h-24 rounded-full bg-white border-4 border-primary/20 flex items-center justify-center mb-6 relative transition-all duration-300 hover:border-primary/40 hover:scale-110">
+                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center transition-all duration-300 hover:scale-110">
                     <step.icon className="w-8 h-8 text-white" />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-lg shadow-lg">
+                  <div className="absolute -top-2 -right-2 w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-lg shadow-lg transition-all duration-300 hover:scale-110">
                     {step.number}
                   </div>
                 </div>

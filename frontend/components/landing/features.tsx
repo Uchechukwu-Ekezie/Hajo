@@ -49,8 +49,12 @@ export function Features() {
           className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto"
         >
           {features.map((feature, index) => (
-            <motion.div key={index} variants={item} className="text-left">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-100 mb-6">
+            <motion.div 
+              key={index} 
+              variants={item} 
+              className="text-left p-6 rounded-xl transition-all duration-300 hover:bg-accent/30 hover:shadow-md"
+            >
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-100 mb-6 transition-all duration-300 hover:bg-purple-200 hover:scale-110">
                 <feature.icon className="h-7 w-7 text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">{feature.title}</h3>

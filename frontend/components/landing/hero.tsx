@@ -40,7 +40,7 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-start gap-4 mb-8 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-              <Button size="lg" variant="ghost" className="text-lg px-6 h-14" asChild>
+              <Button size="lg" variant="ghost" className="text-lg px-6 h-14 transition-all duration-200 hover:bg-accent/50 hover:scale-105" asChild>
                 <Link href="#features" className="flex items-center gap-2">
                   Learn More
                 </Link>
@@ -131,7 +131,7 @@ export function Hero() {
             <div className="mt-6">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-lg px-8 h-12 rounded-full"
+                className="bg-primary hover:bg-primary/90 text-lg px-8 h-12 rounded-full transition-all duration-200 hover:shadow-lg hover:scale-105"
                 onClick={handleGoDashboard}
               >
                 Go to Dashboard

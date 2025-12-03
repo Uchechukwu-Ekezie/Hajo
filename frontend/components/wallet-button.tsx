@@ -9,10 +9,12 @@ export function WalletButton() {
   if (isConnected && address) {
     return (
       <div className="flex items-center gap-3">
-        <span className="text-sm font-medium text-gray-700">
-          {address.slice(0, 6)}...{address.slice(-4)}
-        </span>
-        <Button onClick={disconnectWallet} variant="outline">
+        <div className="px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/20">
+          <span className="text-sm font-medium text-primary">
+            {address.slice(0, 6)}...{address.slice(-4)}
+          </span>
+        </div>
+        <Button onClick={disconnectWallet} variant="outline" className="transition-all duration-200 hover:border-destructive/50 hover:text-destructive">
           Disconnect
         </Button>
       </div>
@@ -20,7 +22,7 @@ export function WalletButton() {
   }
 
   return (
-    <Button onClick={connectWallet}>
+    <Button onClick={connectWallet} className="transition-all duration-200 hover:shadow-lg hover:scale-105">
       Connect wallet
     </Button>
   );
