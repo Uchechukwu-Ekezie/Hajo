@@ -14,7 +14,7 @@ export function Footer() {
           <p className="text-muted-foreground max-w-md text-pretty">
             Bringing traditional African savings circles on-chain.
           </p>
-          <p className="text-sm text-muted-foreground">© 2025 Hajo. Built on Base blockchain.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Hajo. Built on Hedera blockchain.</p>
         </div>
       </div>
     </footer>
