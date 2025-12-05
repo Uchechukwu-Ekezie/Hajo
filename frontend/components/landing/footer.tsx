@@ -11,14 +11,14 @@ export function Footer() {
           {/* Brand Section */}
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="flex items-center gap-2 transition-transform duration-200 hover:scale-105 mb-4">
-              <span className="text-3xl sm:text-4xl font-bold leading-none">
+            <span className="text-3xl sm:text-4xl font-bold leading-none">
                 <span className="text-gray-900 dark:text-gray-100">Ha</span>
-                <span className="text-primary">jo</span>
-              </span>
-            </Link>
+              <span className="text-primary">jo</span>
+            </span>
+          </Link>
             <p className="text-muted-foreground max-w-md text-pretty text-center md:text-left">
               Bringing traditional African savings circles on-chain. Save together, grow together.
-            </p>
+          </p>
           </div>
 
           {/* Networks Section */}

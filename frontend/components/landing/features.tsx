@@ -12,8 +12,8 @@ const features = [
   },
   {
     icon: CreditCard,
-    title: "Flexible Savings Groups",
-    description: "Create or join rotational, target-based, or flexible savings circles that match your financial goals.",
+    title: "Rotational Savings",
+    description: "Create or join a single rotational savings circle where members contribute and take turns receiving payouts.",
   },
   {
     icon: BarChart3,
