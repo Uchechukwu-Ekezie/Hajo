@@ -12,7 +12,7 @@ Hajoo is a simple, onchain community savings (Ajo/Esusu) app built on Hedera. Cr
 - Frontend: Next.js, React, Tailwind CSS
 - Wallet/Chains: wagmi + @reown/appkit (WalletConnect)
 - Contracts: Solidity (Factory + Pool), Hardhat/Foundry
-
+updatind the rear. sjjs
 ## Quickstart
 1) Prerequisites
 - Node.js 18+
